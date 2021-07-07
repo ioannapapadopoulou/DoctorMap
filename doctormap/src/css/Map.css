@@ -1,0 +1,37 @@
+.mapStyle {
+    width: 100vw;
+    height: 100vh;
+}
+.gm-style-iw {
+    border: 1px solid black;
+    width: 380px;
+    height: 13vh;
+}
+.doctorsInformation {
+    text-align: left;
+    transform: translateY(-12px);
+}
+.doctorsInformation .row-1{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+}
+.doctorsInformation .row-1 p{
+    padding-right: 5px;
+}
+.doctorsInformation .row-2 {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    transform: translateY(-14px);
+}
+.doctorsInformation .row-2 p,
+.doctorsInformation .row-3 p{
+   padding-right: 3px;
+}
+.doctorsInformation .row-3 {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    transform: translateY(-27px);
+}
