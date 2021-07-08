@@ -23,7 +23,7 @@
     font-size: 12px;
     font-weight: 400;
     display: flex;
-    transform: translateY(-14px);
+    transform: translateY(-20px);
 }
 .doctorsInformation .row-2 p,
 .doctorsInformation .row-3 p{
@@ -33,5 +33,5 @@
     font-size: 12px;
     font-weight: 400;
     display: flex;
-    transform: translateY(-27px);
+    transform: translateY(-30px);
 }
