@@ -51,7 +51,7 @@ export default function Map() {
               zoom={12}
               center={center}
               options={options}
-            >
+             >
               {doctors.results.map((doctor) => (
                 <Marker
                   key={doctor.id}
@@ -80,7 +80,7 @@ export default function Map() {
                    onCloseClick={() => {
                     setSelectedDoctor(null)
                     }}
-                >
+                 >
                  <div className="doctorsInformation">
                    <div className="row-1">
                       <p>{selectedDoctor.first_name}</p>
